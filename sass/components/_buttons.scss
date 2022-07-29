@@ -1,0 +1,23 @@
+.button {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    min-width: 200px;
+    color: var(--primery-white-color);
+    background-color: var(--accent-color);
+    @include fonts(700, 16px, 1.88, 0.06em);
+    text-align: center;
+    font-family: inherit;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+        
+
+        
+
+
+
+
+

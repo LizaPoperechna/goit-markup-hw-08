@@ -1,0 +1,49 @@
+/*Активити*/
+
+.activity {
+
+    @media screen and (max-width: 1199px) {
+        display: none;
+        }
+
+    @media screen and (min-width: 1200px) {
+            @include section;
+            padding-top: 0;
+        }
+}
+
+.activity__img {
+    display: block;
+    margin-bottom: 0;
+}
+
+.activity__list {
+    display: flex;
+    align-items: center;
+}
+
+.activity__item {
+    margin-right: 30px;
+    position: relative;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.activity__wrap {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    background: rgba(47, 48, 58, 0.8);
+}
+
+.activity__descr {
+    text-align: center;
+    @include fonts(700, 14px, 1.14, 0.03em);
+    text-transform: uppercase;
+    color: var(--primery-white-color);
+}
