@@ -35,9 +35,12 @@
 
 
 .clients__item {
-    width: 210px;
+
     height: 92px;
 
+    @media screen and (max-width: 767px) {
+        max-width: 210px;
+    }
 
     @media screen and (min-width: 768px) {
         width: 226px;
